@@ -1,0 +1,54 @@
+.navbar-light .navbar-brand {
+  color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+
+.col-6.bg-success {
+  height: 400px;
+}
+
+div > .row.row-part-1 {
+  background-color: rgb(255, 247, 189);
+}
+div > .row.row-part-2 {
+  background-color: rgb(255, 237, 105);
+}
+div > .row.row-part-3 {
+  background-color: rgb(255, 228, 31);
+}
+
+.container > .row {
+}
+
+.container > .row > .card.text-white.bg-light.mb-3 {
+  color: black !important;
+  width: 400px;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.row.justify-content-center p.card-text {
+  margin-bottom: 2px;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400;
+}
+
+dl,
+ol,
+ul {
+  list-style-type: none;
+  text-align: left;
+}
